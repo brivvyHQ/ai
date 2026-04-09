@@ -1,0 +1,24 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.brivvyhq/mcp",
+  "title": "Brivvy MCP",
+  "description": "Connect Brivvy brand voice and templates in your workspace over Streamable HTTP with OAuth. You use tools to list voices, pull templates, and run structured content workflows.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/brivvyHQ/ai",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.brivvy.io"
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "documentationUrl": "https://docs.brivvy.io/mcp-server",
+      "supportUrl": "mailto:support@brivvy.io",
+      "securityContact": "mailto:security@brivvy.io"
+    }
+  }
+}
